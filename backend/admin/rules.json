@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "category": "High Urgency Context (Regex)",
+        "weight": 0.20,
+        "keywords": [
+            "within \\d+ (hrs?|hours?|mins?|minutes?|days?)",
+            "act immediately",
+            "urgent(?:ly)? required",
+            "final (?:warning|notice)",
+            "(?:last|final) chance"
+        ],
+        "explanation": "Advanced Regex: Detected severe time-pressure semantics intended to force immediate action.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 2,
+        "category": "OTP Elicitation (Regex)",
+        "weight": 0.30,
+        "keywords": [
+            "(?:share|provide|send|forward|verify|enter).{0,20}(?:otp|code|pin|password)",
+            "(?:otp|pin|password).{0,20}(?:not to share|dont share|never share).{0,15}(?:but|only|with)"
+        ],
+        "explanation": "Advanced Regex: Detected contextual request for a One-Time Password or sensitive PIN code.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 3,
+        "category": "Suspicious Link",
+        "weight": 0.15,
+        "keywords": [
+            "https?:\\/\\/[^\\s]+",
+            "click here",
+            "visit this link"
+        ],
+        "explanation": "The message contains a link or a generic call to action to visit a webpage.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 4,
+        "category": "Authority Impersonation (Regex)",
+        "weight": 0.20,
+        "keywords": [
+            "\\b(?:rbi|sbi|hdfc|icici|pnb|axis|bob)\\b",
+            "\\b(?:income tax|incometax|it dept|police|cyber cell|uidai)\\b",
+            "(?:india post|bluedart|dtdc|dhl|fedex).*(?:package|parcel|stuck|customs|fee)"
+        ],
+        "explanation": "Advanced Regex: Detected impersonation of major Indian banks, government bodies, or courier services.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 5,
+        "category": "Reward or Punishment Trigger (Regex)",
+        "weight": 0.15,
+        "keywords": [
+            "(?:you(?:\\s*have)?\\s*won|cash\\s*prize|lottery\\s*winner|lucky\\s*draw)",
+            "(?:account|card|id) (?:blocked|suspended|locked|deactivated)",
+            "(?:arrest warrant|legal action|penalty)"
+        ],
+        "explanation": "Advanced Regex: Detected psychological manipulation using either large financial rewards or severe legal threats.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 6,
+        "category": "Sensitive Identifier Elicitation (Regex)",
+        "weight": 0.20,
+        "keywords": [
+            "\\b\\d{4}[\\s\\-]?\\d{4}[\\s\\-]?\\d{4}\\b",
+            "[A-Z]{5}[0-9]{4}[A-Z]{1}",
+            "(?:update|verify|submit).{0,15}(?:kyc|pan(?: card)?|aadhaar)"
+        ],
+        "explanation": "Advanced Regex: Detected a request to update KYC, or found mathematical patterns matching Indian Aadhaar / PAN cards.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 7,
+        "category": "Obfuscated URLs (Regex)",
+        "weight": 0.25,
+        "keywords": [
+            "bit\\s*\\.\\s*ly",
+            "t\\s*\\.\\s*me\\/",
+            "tiny\\s*url",
+            "cutt\\s*\\.\\s*ly"
+        ],
+        "explanation": "Advanced Regex: Detected an obfuscated shortened link deliberately hiding its true destination.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 8,
+        "category": "Suspicious TLDs (Regex)",
+        "weight": 0.20,
+        "keywords": [
+            "\\.(xyz|top|online|site|club|free|cc)(\\/|\\b)"
+        ],
+        "explanation": "Advanced Regex: Detected a top-level domain frequently abused by scammers due to low registration costs.",
+        "enabled": true,
+        "is_regex": true
+    },
+    {
+        "id": 9,
+        "category": "Financial Extracts (Regex)",
+        "weight": 0.25,
+        "keywords": [
+            "\\b\\d{4}[\\s\\-]?\\d{4}[\\s\\-]?\\d{4}[\\s\\-]?\\d{4}\\b",
+            "[a-zA-Z0-9\\.\\-_]+@(okaxis|okhdfcbank|okicici|oksbi|paytm|ybl)"
+        ],
+        "explanation": "Advanced Regex: Found a pattern resembling a raw 16-digit credit card number or a UPI Virtual Payment Address (VPA).",
+        "enabled": true,
+        "is_regex": true
+    }
+]

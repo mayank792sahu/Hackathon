@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local DBs
+fraud_knowledge.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Ignore the models if they are generated on the fly, but in our case we pre-bake the TF-IDF model so we DO ACTUALLY WANT TO COPY IT.
+# We will NOT ignore backend/model/classifier.pkl

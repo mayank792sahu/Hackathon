@@ -1,0 +1,26 @@
+# IDEs
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+.venv
+*.log
+
+# Database
+fraud_knowledge.db
+
+# Node
+node_modules/
+dist/
+build/
+.env.local
+
+# ML Models (Ignore the large downloaded models, but NOT the custom trained .pkl)
+# If the user has other large HF models, add them here.

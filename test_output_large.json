@@ -1,0 +1,689 @@
+{
+    "total": 50,
+    "passed": 40,
+    "results": [
+        {
+            "test_name": "Phishing",
+            "message": "Dear SBI User, your account will be blocked today. Please update your PAN card immediately at http://sbi-update-kyc.xyz",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.39,
+            "ml_probability": 0.8653,
+            "final_score": 0.87,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.75).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Authority Impersonation (Regex)",
+                "Sensitive Identifier Elicitation (Regex)",
+                "Suspicious TLDs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "Income Tax Refund of Rs 15,490 has been approved. Click to claim your refund directly to bank: https://incometax-gov-in.club/refund",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.29,
+            "ml_probability": 0.8632,
+            "final_score": 0.86,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.55).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Authority Impersonation (Regex)",
+                "Suspicious TLDs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "Your Jio number KYC is expiring in 24 hrs. Click here to verify your Aadhaar to avoid suspension: bit.ly/jio-kyc-update",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.32,
+            "ml_probability": 0.9042,
+            "final_score": 0.9,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.6).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Sensitive Identifier Elicitation (Regex)",
+                "Obfuscated URLs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "Dear customer, your credit card 4123 **** 8821 will be charged Rs 9,999 for Amazon Prime. If not you, cancel it here: http://amazon-cancel-subs.top",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.18,
+            "ml_probability": 0.9414,
+            "final_score": 0.94,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.35).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Suspicious TLDs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "Your HDFC netbanking access is locked due to security reasons. Unlock now by entering your details at https://hdfc-secure.site",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.29,
+            "ml_probability": 0.949,
+            "final_score": 0.95,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.55).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Authority Impersonation (Regex)",
+                "Suspicious TLDs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "India Post: Your package is stuck at the local sorting facility due to unpaid customs fee of Rs 49. Pay online: cutt.ly/indiapost",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.24,
+            "ml_probability": 0.8861,
+            "final_score": 0.89,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.45).",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)",
+                "Obfuscated URLs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "Congratulations you have won iPhone 15 in the lucky draw! Claim your prize at http://free-prize-winner.online today.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.26,
+            "ml_probability": 0.9745,
+            "final_score": 0.97,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.5).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Reward or Punishment Trigger (Regex)",
+                "Suspicious TLDs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "UIDAI alert: Your Aadhaar linked bank accounts will be frozen by RBI. Verify identity at https://uidai-auth.cc",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.29,
+            "ml_probability": 0.8242,
+            "final_score": 0.82,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.55).",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Authority Impersonation (Regex)",
+                "Suspicious TLDs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "You've been selected for a remote WFH job earning Rs 5000/day. Contact HR now on whatsapp. Visit link: t.me/hr-jobs",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.13,
+            "ml_probability": 0.9288,
+            "final_score": 0.93,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.25).",
+            "triggered_rules": [
+                "Obfuscated URLs (Regex)"
+            ]
+        },
+        {
+            "test_name": "Phishing",
+            "message": "Your electricity power will be disconnected tonight at 9:30 PM because your previous month bill was not updated. Call electricity officer at 9876543210 or visit bit.ly/pay-bill",
+            "expected_risk": "High",
+            "actual_risk": "Medium",
+            "status": "FAIL",
+            "rule_score": 0.13,
+            "ml_probability": 0.5947,
+            "final_score": 0.36,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": [
+                "Obfuscated URLs (Regex)"
+            ]
+        },
+        {
+            "test_name": "OTP Scam",
+            "message": "Do not share this OTP with anyone. Your secret PIN to verify the transaction is 492011. Send it back to confirm.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.16,
+            "ml_probability": 0.9688,
+            "final_score": 0.97,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.3).",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "OTP Scam",
+            "message": "To stop the Rs 50,000 deduction from your HDFC account, please provide the 6-digit verification code you just received.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.11,
+            "ml_probability": 0.9507,
+            "final_score": 0.95,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.2).",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Impersonation",
+            "message": "Hello this is Police Cyber Cell. We found illegal activity on your PAN card. Send us your Aadhaar number immediately or face arrest warrant.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.18,
+            "ml_probability": 0.9548,
+            "final_score": 0.95,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.35).",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)",
+                "Reward or Punishment Trigger (Regex)"
+            ]
+        },
+        {
+            "test_name": "Urgency",
+            "message": "FINAL NOTICE: You must act immediately to stop legal action against you. Your loan EMI is overdue. Pay within 2 hours.",
+            "expected_risk": "High",
+            "actual_risk": "Low",
+            "status": "FAIL",
+            "rule_score": 0.18,
+            "ml_probability": 0.3712,
+            "final_score": 0.28,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": [
+                "High Urgency Context (Regex)",
+                "Reward or Punishment Trigger (Regex)"
+            ]
+        },
+        {
+            "test_name": "Reward",
+            "message": "BIG CASH PRIZE! You are the lucky lottery winner of Rs 1,000,000. Send your bank details and PAN card to receive funds.",
+            "expected_risk": "High",
+            "actual_risk": "Medium",
+            "status": "FAIL",
+            "rule_score": 0.08,
+            "ml_probability": 0.9806,
+            "final_score": 0.53,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": [
+                "Reward or Punishment Trigger (Regex)"
+            ]
+        },
+        {
+            "test_name": "Urgency",
+            "message": "Dear customer, last chance to redeem your 50,000 credit card reward points before they expire today. Log in now.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.11,
+            "ml_probability": 0.9139,
+            "final_score": 0.91,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.2).",
+            "triggered_rules": [
+                "High Urgency Context (Regex)"
+            ]
+        },
+        {
+            "test_name": "Impersonation",
+            "message": "SBI alerting you: We observed suspicious login attempt. Forward the OTP received on SMS to block the fraudulent transaction.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.26,
+            "ml_probability": 0.8908,
+            "final_score": 0.89,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.5).",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)",
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "OTP Scam",
+            "message": "Dear user, the delivery executive is waiting outside. Please share the PIN 8912 to receive your courier.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.16,
+            "ml_probability": 0.8477,
+            "final_score": 0.85,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.3).",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Urgency",
+            "message": "Your Whatsapp account will be deactivated in 30 minutes! Verify your phone number by sending the code via SMS.",
+            "expected_risk": "High",
+            "actual_risk": "Medium",
+            "status": "FAIL",
+            "rule_score": 0.16,
+            "ml_probability": 0.7543,
+            "final_score": 0.46,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Finance Phish",
+            "message": "We need to verify your payment. Send us your UPI pin or credit card number and CVV to process the refund.",
+            "expected_risk": "High",
+            "actual_risk": "High",
+            "status": "PASS",
+            "rule_score": 0.16,
+            "ml_probability": 0.8381,
+            "final_score": 0.84,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.3).",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit Bank",
+            "message": "HDFC Bank: Rs. 500.00 debited from a/c **8210 on 22-Feb-26. Not you? Call 18002026161 to block card.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "High",
+            "status": "FAIL",
+            "rule_score": 0.11,
+            "ml_probability": 0.9842,
+            "final_score": 0.98,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.2).",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit Bank",
+            "message": "Dear Customer, your A/c **4129 is credited with Rs 40,000.00 on 22-Feb-26 by NEFT. Avl Bal: Rs 55,200.00. SBI",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "High",
+            "status": "FAIL",
+            "rule_score": 0.11,
+            "ml_probability": 0.954,
+            "final_score": 0.95,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.2).",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit OTP",
+            "message": "849201 is your OTP for transaction at Amazon. DO NOT share this with anyone. Bank will never call you for OTP.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Medium",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.9794,
+            "final_score": 0.49,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Legit OTP",
+            "message": "Use 123456 as your Swiggy login OTP. This is valid for 5 minutes. Never share it with anyone.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.6149,
+            "final_score": 0.31,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Legit Finance",
+            "message": "Your statement for ICICI Bank Credit Card ending 9012 for Jan 2026 is generated. Minimum Due: Rs 1500. Payment due by 15-Feb.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.11,
+            "ml_probability": 0.5899,
+            "final_score": 0.35,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit Bank",
+            "message": "Alert: Login to your Axis Bank Internet Banking from IP 192.168.1.5 occurred. If this wasn't you, call customer care.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "High",
+            "status": "FAIL",
+            "rule_score": 0.11,
+            "ml_probability": 0.8332,
+            "final_score": 0.83,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.2).",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit Finance",
+            "message": "SIP of Rs. 5000 in Mutual Fund successfully processed on 01-Feb-26. Folio No 918291. - Groww.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Medium",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.8235,
+            "final_score": 0.41,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Legit OTP",
+            "message": "Your Google verification code is 881290. Do not share this code with anyone.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "High",
+            "status": "FAIL",
+            "rule_score": 0.16,
+            "ml_probability": 0.9107,
+            "final_score": 0.91,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.3).",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit Bank",
+            "message": "Reminder: Your EMI of Rs 15,200 for Auto Loan is due on 05-Mar-26. Please maintain sufficient balance. - PNB",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Medium",
+            "status": "PASS",
+            "rule_score": 0.11,
+            "ml_probability": 0.735,
+            "final_score": 0.42,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": [
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Legit Transaction",
+            "message": "Paid Rs. 150 to Zomato India via UPI. Txn Ref: 412910291029. - PhonePe",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "High",
+            "status": "FAIL",
+            "rule_score": 0.11,
+            "ml_probability": 0.9449,
+            "final_score": 0.94,
+            "decision_reason": "High Risk Override: Strong AI pattern corroborated by explicit rule triggers (Raw Wt: 0.2).",
+            "triggered_rules": [
+                "Sensitive Identifier Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Personal",
+            "message": "Hey Rahul! What time are we meeting for dinner tonight? Let me know.",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.0157,
+            "final_score": 0.01,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "Mom said we are out of milk. Can you pick some up on your way home?",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.0023,
+            "final_score": 0.0,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "Bro, I just paid for the movie tickets on Paytm. Send me your share. Here is the booking link: https://bookmyshow.com/xyz",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Medium",
+            "status": "PASS",
+            "rule_score": 0.08,
+            "ml_probability": 0.8474,
+            "final_score": 0.46,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": [
+                "Suspicious Link"
+            ]
+        },
+        {
+            "test_name": "Personal",
+            "message": "Did you finish the assignment yet? The deadline is midnight and I haven't started!",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.0308,
+            "final_score": 0.02,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "Haha that meme you sent was hilarious! Good luck with your exam tomorrow.",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.0471,
+            "final_score": 0.02,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "I'm stuck in traffic, might be 15 minutes late. Go ahead and order without me.",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.1596,
+            "final_score": 0.08,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "Happy Birthday Anjali! Hope you have an amazing day and a great year ahead. Miss you!",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.0822,
+            "final_score": 0.04,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "Can someone share the Wifi password for the conference room?",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.16,
+            "ml_probability": 0.1158,
+            "final_score": 0.14,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": [
+                "OTP Elicitation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Personal",
+            "message": "I transferred the rent to your account. Let me know once you receive it. Thanks.",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.6119,
+            "final_score": 0.31,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Personal",
+            "message": "Are we still playing football this weekend? We need two more players.",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.0321,
+            "final_score": 0.02,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Work Urgency",
+            "message": "Hey team, the production server is down! We need to fix this urgently. Jump on the Zoom call now: https://zoom.us/j/123",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.08,
+            "ml_probability": 0.3013,
+            "final_score": 0.19,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": [
+                "Suspicious Link"
+            ]
+        },
+        {
+            "test_name": "Work",
+            "message": "Please review the attached quarterly report and send me your feedback by EOD. - Sarah",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.152,
+            "final_score": 0.08,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Delivery",
+            "message": "Your BlueDart package AWB 182910291 is out for delivery. Track at https://bluedart.com/track",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Medium",
+            "status": "PASS",
+            "rule_score": 0.18,
+            "ml_probability": 0.7796,
+            "final_score": 0.48,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": [
+                "Suspicious Link",
+                "Authority Impersonation (Regex)"
+            ]
+        },
+        {
+            "test_name": "Delivery",
+            "message": "Swiggy Genie: Your package has been picked up. Track your rider here: swiggy.in/track",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.062,
+            "final_score": 0.03,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Promo",
+            "message": "Up to 50% OFF on winter wear at Myntra! Sale ends tonight. Shop now: myntra.com/sale",
+            "expected_risk": "Medium",
+            "actual_risk": "Low",
+            "status": "FAIL",
+            "rule_score": 0.0,
+            "ml_probability": 0.5308,
+            "final_score": 0.27,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Promo",
+            "message": "Hungry? Grab 2 pizzas for the price of 1 at Domino's! Use code BOGO. Order at dominos.co.in",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.2796,
+            "final_score": 0.14,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Work Urgency",
+            "message": "Can you urgently send me the presentation? We need it within 2 hours for the client meeting.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.11,
+            "ml_probability": 0.1671,
+            "final_score": 0.14,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": [
+                "High Urgency Context (Regex)"
+            ]
+        },
+        {
+            "test_name": "Delivery",
+            "message": "OTP for your Amazon delivery is 5192. Share with the agent only after receiving the package.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Medium",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.9465,
+            "final_score": 0.47,
+            "decision_reason": "Hybrid calculation detects a moderate blend of suspicious signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Work",
+            "message": "Don't forget to submit your timesheets for this week before 5 PM on Friday.",
+            "expected_risk": "Low",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.1026,
+            "final_score": 0.05,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        },
+        {
+            "test_name": "Promo",
+            "message": "Jio: Recharge with Rs. 299 to enjoy unlimited calls and 2GB/day data. Recharge now via MyJio app.",
+            "expected_risk": "Low/Medium",
+            "actual_risk": "Low",
+            "status": "PASS",
+            "rule_score": 0.0,
+            "ml_probability": 0.6768,
+            "final_score": 0.34,
+            "decision_reason": "Hybrid calculation shows very low risk signals.",
+            "triggered_rules": []
+        }
+    ]
+}
