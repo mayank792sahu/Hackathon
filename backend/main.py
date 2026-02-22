@@ -5,9 +5,9 @@ import json
 import os
 import time
 
-from backend.engine.hybrid import compute_risk
-from backend.engine.ml_engine import load_models
-from backend.database.db import save_feedback, log_analysis, get_recent_logs
+from engine.hybrid import compute_risk
+from engine.ml_engine import load_models
+from database.db import save_feedback, log_analysis, get_recent_logs
 
 # Init FastAPI
 app = FastAPI(title="Fraud Detection API")

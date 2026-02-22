@@ -1,5 +1,5 @@
-from backend.engine.rule_engine import evaluate_rules
-from backend.engine.ml_engine import predict_scam_probability
+from engine.rule_engine import evaluate_rules
+from engine.ml_engine import predict_scam_probability
 
 # Scoring Weights
 RULE_WEIGHT = 0.4
